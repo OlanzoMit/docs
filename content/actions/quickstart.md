@@ -101,8 +101,7 @@ Printing "Hello, World!" is a great way to explore the basic set up and syntax o
       workflow_dispatch:
         # The workflow_dispatch event accepts optional inputs so you can customize the behavior of the workflow
         inputs:
-          name:
-            description: 'Person to greet'
+          description: 'Person to greet'
             required: true
             default: 'World'
     # When the event is triggered, GitHub Actions will run the jobs indicated
@@ -119,7 +118,7 @@ Printing "Hello, World!" is a great way to explore the basic set up and syntax o
     ![Commit workflow file](/assets/images/help/repository/commit-hello-world-file.png)
 4. Once the pull request has been merged, you'll be ready to move on to "Trigger your workflow".
 
-### Trigger your workflow
+ Trigger your workflow
 
 {% data reusables.repositories.navigate-to-repo %}
 {% data reusables.repositories.actions-tab %}
